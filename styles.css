@@ -1,0 +1,57 @@
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+hr {
+  max-width: 155px;
+  border-width: 2px;
+  border-color: white;
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("background-laptop.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+header.startup hr {
+  margin-top: 300px;
+  margin-bottom: 30px; 
+}
+
+header.startup h1 {
+  font-size: 2.5rem; 
+  font-weight: bolder;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 1.25em;
+  border-radius: 10px;  
+  font-family: 'PT Sans', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+
+.btn-light:hover {
+  background-color: #B8B5AF;
+  border-color: grey;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+
